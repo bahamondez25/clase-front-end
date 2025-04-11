@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 4</title>
+    <!-- links para utilizar los estilos de la librería bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navbar es la clase para los menús -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">bootstrap Oficial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.w3schools.com/bootstrap5/">W3S Tutorial bootstrap</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- bg-primary fondo azul, p es padding y va del 1 al 5  -->
+    <header class="bg-success p-5 text-center text-white">
+        <h1>Web con librerías</h1>
+    </header>
+    <!-- container es una clase que añade margenes -->
+    <main class="container">
+        <!-- mt es margin top y va del 1 al 5 -->
+        <div class="row mt-5 text-center"> 
+            <!-- col-4 es la cantidad que ocupara dentro de la pantalla -->
+            <div class="col-4" style="width: 25rem;">
+                <!-- generamos un div con la clase card para ver imagenes e información ordenada -->
+                <div class="card">
+                    <img src="img/valorant.jpg" class="card-top-img"  height="300" alt="">
+                    <div class="card-title">
+                        <h3>Valorant</h3>
+                    </div>
+                    <div class="card-body">
+                        Valorant es un jueguito para ratasssssssssssss
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://playvalorant.com/es-mx/" target="_blank" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4" style="width: 25rem;">
+                <!-- generamos un div con la clase card para ver imagenes e información ordenada -->
+                <div class="card">
+                    <img src="img/lol.avif" class="card-top-img" height="300" alt="">
+                    <div class="card-title">
+                        <h3>League of legends</h3>
+                    </div>
+                    <div class="card-body">
+                        LOL es un jueguito para la ratita..
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://www.leagueoflegends.com/es-es/" target="_blank" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4"  style="width: 25rem;"> 
+                <!-- generamos un div con la clase card para ver imagenes e información ordenada -->
+                <div class="card">
+                    <img src="img/tk1.jpg" class="card-top-img"  height="300" alt="">
+                    <div class="card-title">
+                        <h3>Tekken 8</h3>
+                    </div>
+                    <div class="card-body">
+                        Tekken es un jueguo para de peleas
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://es.bandainamcoent.eu/tekken/tekken-8" target="_blank" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
